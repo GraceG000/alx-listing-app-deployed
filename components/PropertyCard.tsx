@@ -1,4 +1,4 @@
-interface PropertyCardProps {
+export interface PropertyCardProps {
   property: {
     id: string;
     title: string;

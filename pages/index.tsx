@@ -4,7 +4,7 @@ import PropertyCard from "@/components/PropertyCard";
 
 
 export default function Home() {
-  const [properties, setProperties] = useState([]);
+  const [properties, setProperties] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() =>{
